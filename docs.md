@@ -283,7 +283,7 @@ The basic e-commerce application will include the following features:
 2. **Organize the project into modular components:**
    - Create folders for different modules, such as `Products`, `Orders`, and `Shared`.
    - Move related Razor Pages and models into their respective folders.
-```
+
 
 #### 4.3 Building the Product Catalog Module
 
