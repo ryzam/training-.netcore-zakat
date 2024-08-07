@@ -93,7 +93,7 @@ Sure, here is a comprehensive training material outline for .NET Core 8.0 includ
 #### 1. Introduction to .NET Core 8.0
 
 ##### 1.1 Overview of .NET Core
-```markdown
+
 .NET Core is a cross-platform, high-performance, open-source framework for building modern, cloud-based, and internet-connected applications. It allows developers to build applications that can run on Windows, macOS, and Linux operating systems. Key benefits of .NET Core include:
 
 - **Cross-platform:** Build and run apps on Windows, macOS, and Linux.
@@ -102,7 +102,7 @@ Sure, here is a comprehensive training material outline for .NET Core 8.0 includ
 - **Modular and lightweight:** .NET Core allows developers to include only the necessary libraries, resulting in smaller and faster applications.
 - **Flexible deployment:** Applications can be deployed as self-contained or framework-dependent deployments.
 - **CLI tools:** .NET Core includes a command-line interface (CLI) for managing projects, building, and running applications.
-```
+
 
 ##### 1.2 Differences between .NET Core and .NET Framework
 ```markdown
