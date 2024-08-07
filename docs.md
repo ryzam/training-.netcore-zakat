@@ -1,4 +1,3 @@
-Sure, here is a comprehensive training material outline for .NET Core 8.0 including step-by-step examples. This material will cover an overview of .NET Core, differences with other .NET frameworks, Entity Framework Core with PostgreSQL and LocalDB, a hands-on project to create a basic e-commerce application using ASP.NET Razor as a modular monolith, and a tutorial on creating web APIs using minimal API.
 
 ### 1. Introduction to .NET Core 8.0
 
@@ -119,7 +118,7 @@ Sure, here is a comprehensive training material outline for .NET Core 8.0 includ
 #### 2. Setting Up the Development Environment
 
 ##### 2.1 Installing .NET Core SDK
-```markdown
+
 1. **Download the .NET Core SDK:**
    - Visit the [official .NET download page](https://dotnet.microsoft.com/download).
    - Select the version of .NET Core you want to install and download the installer for your operating system.
@@ -130,10 +129,10 @@ Sure, here is a comprehensive training material outline for .NET Core 8.0 includ
 3. **Verify the installation:**
    - Open a command prompt or terminal.
    - Type `dotnet --version` and press Enter. You should see the installed version of .NET Core.
-```
+
 
 ##### 2.2 Setting Up a Code Editor or IDE
-```markdown
+
 You can use various code editors or IDEs for .NET Core development. Here are some popular options:
 
 1. **Visual Studio Code:**
@@ -146,22 +145,22 @@ You can use various code editors or IDEs for .NET Core development. Here are som
 
 3. **JetBrains Rider:**
    - Download and install JetBrains Rider from the [official website](https://www.jetbrains.com/rider/).
-```
+
 
 #### 3. Entity Framework Core with PostgreSQL and LocalDB
 
 ##### 3.1 Introduction to Entity Framework Core
-```markdown
+
 Entity Framework Core (EF Core) is an ORM (Object-Relational Mapper) that enables .NET developers to work with a database using .NET objects. It eliminates the need for most of the data-access code that developers usually need to write. Key features of EF Core include:
 
 - **Cross-platform:** Works on Windows, macOS, and Linux.
 - **Lightweight and extensible:** Provides a simple and efficient way to interact with databases.
 - **Support for LINQ:** Allows developers to write queries using LINQ (Language Integrated Query).
 - **Migrations:** Provides tools for managing database schema changes.
-```
+
 
 ##### 3.2 Setting Up PostgreSQL
-```markdown
+
 1. **Install PostgreSQL:**
    - Download and install PostgreSQL from the [official website](https://www.postgresql.org/download/).
 
@@ -175,10 +174,9 @@ Entity Framework Core (EF Core) is an ORM (Object-Relational Mapper) that enable
      ```sql
      CREATE DATABASE ecommerce_db;
      ```
-```
 
 ##### 3.3 Setting Up LocalDB
-```markdown
+
 1. **Install LocalDB:**
    - LocalDB is installed with Visual Studio by default. If you do not have Visual Studio, you can download SQL Server Express from the [official website](https://www.microsoft.com/en-us/sql-server/sql-server-editions-express) and install LocalDB.
 
@@ -199,10 +197,10 @@ Entity Framework Core (EF Core) is an ORM (Object-Relational Mapper) that enable
      ```sql
      CREATE DATABASE ECommerceDB;
      ```
-```
+
 
 ##### 3.4 Creating a .NET Core Project with Entity Framework Core
-```markdown
+
 1. **Create a new .NET Core project:**
    - Open a command prompt or terminal.
    - Run the following command to create a new ASP.NET Core Razor Pages project:
@@ -267,15 +265,15 @@ Entity Framework Core (EF Core) is an ORM (Object-Relational Mapper) that enable
 ### Hands-on Project: Basic E-commerce Application using ASP.NET Razor as Modular Monolith
 
 #### 4.1 Project Overview
-```markdown
+
 The basic e-commerce application will include the following features:
 - Product catalog management
 - Order management
 - User interface for browsing products and placing orders
-```
+
 
 #### 4.2 Creating the Project Structure
-```markdown
+
 1. **Create a new ASP.NET Core Razor Pages project:**
    - Run the following command:
      ```sh
@@ -288,7 +286,7 @@ The basic e-commerce application will include the following features:
 ```
 
 #### 4.3 Building the Product Catalog Module
-```markdown
+
 1. **Create the database schema for products:**
    - Define the `Product` model:
      ```csharp
@@ -306,10 +304,10 @@ The basic e-commerce application will include the following features:
 
 3. **Create Razor Pages for product management:**
    - Implement the user interface for managing products.
-```
+
 
 #### 4.4 Building the Order Management Module
-```markdown
+
 1. **Create the database schema for orders:**
    - Define the `Order` model:
      ```csharp
@@ -333,10 +331,10 @@ The basic e-commerce application will include the following features:
 
 3. **Create Razor Pages for order management:**
    - Implement the user interface for managing orders.
-```
+
 
 #### 4.5 Integrating the Modules
-```markdown
+
 1. **Set up relationships between products and orders:**
    - Configure the relationships in the `ECommerceContext` class:
      ```csharp
@@ -366,12 +364,12 @@ The basic e-commerce application will include the following features:
 ### Creating Web APIs using Minimal API
 
 #### 5.1 Introduction to Minimal APIs
-```markdown
+
 Minimal APIs in .NET Core provide a simple and lightweight way to build web APIs with minimal setup and configuration. They are ideal for small, focused APIs that do not require the full capabilities of ASP.NET Core MVC.
-```
+
 
 #### 5.2 Creating a Minimal API Project
-```markdown
+
 1. **Set up a new .NET Core project:**
    - Run the following command to create a new minimal API project:
      ```sh
@@ -398,19 +396,18 @@ Minimal APIs in .NET Core provide a simple and lightweight way to build web APIs
 
      app.Run();
      ```
-```
 
 #### 5.3 Implementing CRUD Operations
-```markdown
+
 1. **Create the database context:**
    - Use the `ECommerceContext` class from the previous section.
 
 2. **Implement CRUD operations using minimal APIs:**
    - Define the endpoints for creating, reading, updating, and deleting products.
-```
+
 
 #### 5.4 Securing the Web API
-```markdown
+
 1. **Add authentication and authorization:**
    - Install the necessary NuGet packages:
      ```sh
@@ -440,6 +437,5 @@ Minimal APIs in .NET Core provide a simple and lightweight way to build web APIs
      app.UseAuthentication();
      app.UseAuthorization();
      ```
-```
 
 This outline provides a comprehensive guide to .NET Core 8.0, covering the basics, setting up the environment, working with Entity Framework Core, building an e-commerce application, and creating minimal APIs. Each section includes detailed steps and code examples to help learners understand and implement the concepts effectively.
