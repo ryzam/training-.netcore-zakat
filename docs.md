@@ -105,7 +105,7 @@ Sure, here is a comprehensive training material outline for .NET Core 8.0 includ
 
 
 ##### 1.2 Differences between .NET Core and .NET Framework
-```markdown
+
 .NET Core and .NET Framework are both part of the .NET ecosystem, but they have some key differences:
 
 - **Cross-platform capabilities:** .NET Core is designed to be cross-platform, running on Windows, macOS, and Linux, while .NET Framework is primarily for Windows.
@@ -114,7 +114,7 @@ Sure, here is a comprehensive training material outline for .NET Core 8.0 includ
 - **Deployment flexibility:** .NET Core applications can be deployed as self-contained or framework-dependent deployments, offering more flexibility compared to .NET Framework.
 - **Command-line interface (CLI):** .NET Core includes a CLI for managing projects, building, and running applications, whereas .NET Framework relies on Visual Studio for these tasks.
 - **Compatibility with .NET Standard:** .NET Core supports .NET Standard, ensuring compatibility with libraries that target .NET Standard.
-```
+
 
 #### 2. Setting Up the Development Environment
 
