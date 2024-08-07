@@ -359,7 +359,7 @@ The basic e-commerce application will include the following features:
 
 2. **Implement the user interface for the e-commerce application:**
    - Create Razor Pages for browsing products and placing orders.
-```
+
 
 ### Creating Web APIs using Minimal API
 
